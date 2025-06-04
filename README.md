@@ -14,7 +14,7 @@ Baseline: Healthy rail (no defects).
 20% defect: Severe rail stiffness reduction.
 
 ### File Naming Convention:
-Data04-08_{SensorPosition}_{Wagon}_Cut.mat – Vibration data (e.g., TF for "Trailing Front," VG for "Vagão").
+Data04-08_{SensorPosition}_{Wagon}_Cut.mat – Vibration data (TF for front bogie and VG for car body position).
 Data04-08_velocidade.mat – Corresponding speed measurements.
 
 ### Key Features:
