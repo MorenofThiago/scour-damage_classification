@@ -2,22 +2,22 @@
 
 This repository provides code for classifying rail defects using vibration (acceleration) and speed data through a CNN that combines both inputs.
 
-## Scripts:
+### Scripts:
 
 main.py – Loads, preprocesses, and analyzes sensor/speed data, trains the CNN model, and evaluates performance.
 
-## Datasets:
+### Datasets:
 The MATLAB datasets contain vibration and speed measurements under different rail conditions:
 Baseline: Healthy rail (no defects).
 5% defect: Minor rail stiffness reduction.
 10% defect: Moderate rail stiffness reduction.
 20% defect: Severe rail stiffness reduction.
 
-## File Naming Convention:
+### File Naming Convention:
 Data04-08_{SensorPosition}_{Wagon}_Cut.mat – Vibration data (e.g., TF for "Trailing Front," VG for "Vagão").
 Data04-08_velocidade.mat – Corresponding speed measurements.
 
-## Key Features:
+### Key Features:
 
 Data preprocessing: Normalization and balanced train/test splitting.
 Hybrid CNN model: Processes both vibration signals and speed data.
