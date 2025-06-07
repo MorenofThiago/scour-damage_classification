@@ -8,9 +8,9 @@ main.py – Loads, preprocesses, and analyzes sensor/speed data, trains the CNN 
 
 #### Datasets:
 The MATLAB datasets contain vibration and speed measurements under different rail conditions:\
-Baseline: Healthy bridge (undamaged).\
-  - 5% damage: Minor vertical stiffness reduction.\
-  - 10% damage: Moderate vertical stiffness reduction.\
+  - Baseline: Healthy bridge (undamaged).
+  - 5% damage: Minor vertical stiffness reduction.
+  - 10% damage: Moderate vertical stiffness reduction.
   - 20% damage: Moderate/High vertical stiffness reduction.
 
 #### File Naming Convention:
