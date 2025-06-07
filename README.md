@@ -7,7 +7,7 @@ This repository provides code for classifying rail defects using vibration (acce
 main.py – Loads, preprocesses, and analyzes sensor/speed data, trains the CNN model, and evaluates performance.
 
 #### Datasets:
-The MATLAB datasets contain vibration and speed measurements under different rail conditions:\
+The MATLAB datasets contain vibration and speed measurements under different rail conditions:
   - Baseline: Healthy bridge (undamaged).
   - 5% damage: Minor vertical stiffness reduction.
   - 10% damage: Moderate vertical stiffness reduction.
